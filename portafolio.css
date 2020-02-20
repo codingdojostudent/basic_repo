@@ -1,0 +1,116 @@
+/*CSS reset settings here*/
+
+*{
+ margin: 0px;
+ /*outline: 1px dotted red;
+ padding-top: 4px;
+ padding-bottom: 4px;*/
+}
+#fondo{
+ width: 990px;
+ margin: 0px auto;
+/* background-color: #20375d;
+ padding-top: 8px;
+ padding-bottom: 8px;*/
+}
+.cabecera{
+ display: inline-block;
+ width: 960px;
+ min-height: auto;
+ background-image: linear-gradient(rgb(242 242 242), white);
+ margin: 0px;
+ padding: 10px 15px 15px 15px;
+}
+ 	.cabecera h2{
+	 display: inline-block;
+	 width: 200px;
+	 color: black;
+	 font-size: 220%;
+	 font-family: "comic sans ms";
+	}
+	.cabecera h3{
+	 display: inline-block;
+	 position: relative;
+	 left: 350px;
+	 width: 400px;
+	 font-size: 140%;
+	 color: black;
+	}
+
+.container{
+ display: inline-block;
+ min-height: auto;
+ width: 970px;
+ background-color: rgb(111 89 100);
+ margin: 0px;
+ font-family: "gotham rounded book", "times new roman";
+ padding: 10px 10px 20px 10px;
+}
+	.foto{
+	 display: inline-block;
+	 padding: 6px;
+	 background-color: silver;
+	 margin: 12px;
+	}
+	.container .presentacion{
+	 display: inline-block;
+	 width: 520px;
+	 vertical-align: top;
+	 margin: 12px;
+	 font-family: "gotham rounded book", "times new roman";
+	 font-size: 120%;
+	}
+	.container .presentacion h3{
+	 display: block;
+	 background-color: rgb(167 176 173);
+	 color: white;
+	 padding: 5px;
+	}
+	.container .presentacion p{
+	 display: inline-block;
+	 background-image: linear-gradient(to left, rgb(218 203 217), rgb(254 254 254));
+	 color: black;
+	 padding: 10px;
+	}
+	.container .presentacion span{
+	 text-decoration: underline;
+	}
+
+.marco{
+ display: inline-block;
+ height: 400px;
+ width: 290px;
+ background-color: ;
+ font-family: "gotham rounded book", "times new roman";
+ margin: 13px;
+}
+	.marco h3{
+	 display: block;
+	 color: white;
+	 background-color: rgb(167 176 173);
+	 padding: 6px;
+	 font-size: 120%;
+	}
+	.marco p{
+	 display: block;
+	 color: black;
+	 background-image: linear-gradient(to left, rgb(218 203 217), rgb(254 254 254));
+	 padding: 6px;
+	 height: 160px;
+	 font-size: 100%;
+	}
+.pie{
+ min-height: auto;
+ width: auto;
+ background-image: linear-gradient(rgb(242 242 242), white);
+ padding: 5px;
+ font-size: 120%;
+ }
+ 	.pie span{
+ 	 font-style: italic;
+ 	 text-decoration: underline;
+ 	 margin: 2px;
+ 	}
+ 	.pie p{
+ 	 margin: 12px 0px;
+ 	}
