@@ -1,0 +1,7 @@
+# Lista de archivos ignorados
+secret.js
+# Lista de ficheros ignorados
+secrets/
+# Lista de extensiones ignoradas
+log*
+*.txt
